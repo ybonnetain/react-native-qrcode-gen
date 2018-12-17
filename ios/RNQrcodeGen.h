@@ -18,7 +18,5 @@
 
 @interface RNQrcodeGenView ()
 
-//-(UIView *)encode:(NSString *)value;
-
 @end
 
