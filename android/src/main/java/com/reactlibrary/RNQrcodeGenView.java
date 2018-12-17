@@ -15,7 +15,7 @@ public class RNQrcodeGenView extends AppCompatImageView {
 
     private static final String TAG = "RNQrcodeGenView";
 
-    private String mValue = "https://www.toto.com";
+    private String mValue = "";
 
     public RNQrcodeGenView(Context context) {
         super(context);
