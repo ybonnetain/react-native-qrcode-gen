@@ -45,7 +45,7 @@ If the iOS target does not already contain Swift classes
   	```
 
 ## Usage
-```
+```jsx
 import React from 'react';
 import { StyleSheet } from 'react-native';
 import QrcodeView from 'react-native-qrcode-gen';
@@ -64,4 +64,10 @@ export default () => (
   />
 );
 ```
+
+## Available Props
+
+prop      | type                 | default value
+----------|----------------------|--------------
+`value`   | `string`             | -
   

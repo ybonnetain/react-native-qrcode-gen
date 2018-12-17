@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-qrcode-gen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "RN library to generate Text encoded QRcodes",
   "repository": {
     "type": "git",
@@ -14,7 +14,10 @@
   },
   "keywords": [
     "react-native",
-    "qrcode-generator"
+    "qrcode",
+    "qrcode-generator",
+    "ios",
+    "android"
   ],
   "author": "Yann Bonnetain <yann.bonnetain@gmail.com>",
   "license": "MIT",
