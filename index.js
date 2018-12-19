@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { string } from 'prop-types';
 import { requireNativeComponent, ViewPropTypes } from 'react-native';
 
-var viewProps = {
+const viewProps = {
     name: 'QrcodeView',
     propTypes: {
       value: string,
