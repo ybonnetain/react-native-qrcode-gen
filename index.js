@@ -12,12 +12,4 @@ const viewProps = {
 
 const RNQrcodeGen = requireNativeComponent('RNQrcodeGen', viewProps);
 
-class QRcodeView extends Component {
-    render () {
-        return (
-            <RNQrcodeGen {...this.props} />
-        );
-    }
-}
-
-module.exports = QRcodeView;
+export default (props) => <RNQrcodeGen {...props} />;
